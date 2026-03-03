@@ -1,12 +1,13 @@
 
 public abstract class Mascotas {
 
+	// atributos
 	protected String nombre;
 	protected int edad;
 	protected String estado;
 	protected String fechaNacimiento;
 
-	public Mascotas(String nombre, int edad, String estado, String fechaNacimiento) {
+	public Mascotas(String nombre, int edad, String estado, String fechaNacimiento) { // creamos el constructor
 		super();
 		this.nombre = nombre;
 		this.edad = edad;
