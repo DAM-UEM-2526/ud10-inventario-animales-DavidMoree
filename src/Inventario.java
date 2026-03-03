@@ -3,11 +3,11 @@ import java.util.Iterator;
 
 public class Inventario {
 
-	private ArrayList<Mascotas> animales; // creamos la relacion 
+	private ArrayList<Mascotas> animales; // creamos la relacion
 
 	public Inventario() {
 
-		this.animales = new ArrayList<Mascotas>();//inicializamos 
+		this.animales = new ArrayList<Mascotas>();// inicializamos
 	}
 
 	public void vaciar() {// metodo para vaciar la lista
@@ -35,12 +35,12 @@ public class Inventario {
 
 		for (Mascotas mascotas : animales) {
 			System.out.println(mascotas.nombre);
-			
+
 		}
 	}
 
-	public void imprimirPerros() { //  metodo para imprimir solo los perros utilizamos el instanceof
-		
+	public void imprimirPerros() { // metodo para imprimir solo los perros utilizamos el instanceof
+
 		for (Mascotas mascotas : animales) {
 			if (mascotas instanceof Perro) {
 				System.out.println(mascotas.nombre);
